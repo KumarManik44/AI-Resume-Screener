@@ -35,6 +35,7 @@ The model can classify resumes into 24 categories:
 ├── resume_screener_model.pkl       # Trained ML model pipeline
 ├── resume_predictor.py             # Standalone prediction module
 ├── model_documentation.json        # Model metadata and info
+├── AI Resume Screener.ipynb        # Jupyter Notebook   
 └── README.md                       # Project documentation
 ```
 
