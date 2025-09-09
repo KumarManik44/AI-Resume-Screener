@@ -8,7 +8,7 @@ An intelligent resume category classification system that automatically categori
 
 ## 🚀 Live Demo
 
-[**Try the App Here**](https://your-app-name.streamlit.app) *(Link will be available after deployment)*
+[**Try the App Here**](https://airesumescreener74568.streamlit.app/)
 
 ## 📋 Overview
 
