@@ -156,7 +156,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👨‍💻 Author
 
 **Kumar Manik**
-- LinkedIn: [Kumar Manik]([https://www.linkedin.com/in/kumar2000manik/])
+- LinkedIn: [https://www.linkedin.com/in/kumar2000manik/]
 
 ## 🙏 Acknowledgments
 
