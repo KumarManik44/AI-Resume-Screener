@@ -1,0 +1,55 @@
+{
+  "model_info": {
+    "name": "AI-Powered Resume Screener",
+    "algorithm": "Random Forest",
+    "version": "1.0",
+    "created_date": "2025-09-09"
+  },
+  "performance": {
+    "overall_accuracy": 0.7585513078470825,
+    "total_categories": 24,
+    "training_samples": 1986,
+    "test_samples": 497
+  },
+  "categories": [
+    "ACCOUNTANT",
+    "ADVOCATE",
+    "AGRICULTURE",
+    "APPAREL",
+    "ARTS",
+    "AUTOMOBILE",
+    "AVIATION",
+    "BANKING",
+    "BPO",
+    "BUSINESS-DEVELOPMENT",
+    "CHEF",
+    "CONSTRUCTION",
+    "CONSULTANT",
+    "DESIGNER",
+    "DIGITAL-MEDIA",
+    "ENGINEERING",
+    "FINANCE",
+    "FITNESS",
+    "HEALTHCARE",
+    "HR",
+    "INFORMATION-TECHNOLOGY",
+    "PUBLIC-RELATIONS",
+    "SALES",
+    "TEACHER"
+  ],
+  "usage_instructions": {
+    "1": "Load model: model_package = joblib.load('resume_screener_model.pkl')",
+    "2": "Predict: result = predict_resume_category(resume_text, model_package)",
+    "3": "Access prediction: result['predicted_category']",
+    "4": "Access confidence: result['confidence']"
+  },
+  "preprocessing_steps": [
+    "Text cleaning (remove HTML, URLs, emails, phone numbers)",
+    "Lowercase conversion",
+    "Punctuation removal",
+    "Tokenization",
+    "Stop word removal",
+    "Lemmatization",
+    "TF-IDF vectorization (max_features=5000, ngram_range=(1,2))"
+  ]
+}
