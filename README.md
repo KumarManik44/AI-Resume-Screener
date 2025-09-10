@@ -32,7 +32,7 @@ The model can classify resumes into 24 categories:
 📁 Project Structure
 ├── app.py                          # Streamlit web application
 ├── requirements.txt                # Python dependencies
-├── resume_screener_model.pkl       # Trained ML model pipeline - Uploaded on Google Drive
+├── resume_screener_model.pkl       # Trained ML model pipeline
 ├── resume_predictor.py             # Standalone prediction module
 ├── model_documentation.json        # Model metadata and info
 ├── AI Resume Screener.ipynb        # Jupyter Notebook   
